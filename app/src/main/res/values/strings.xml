@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">tradingapp</string>
+    <string name="welcome_msg">Welcome! You are logged in</string>
+    <string name="sign_out">Sign out</string>
+    <string name="images">Images</string>
+    <string name="email_label">Email</string>
+    <string name="password_label">Password</string>
+    <string name="sign_up_label">Not registered? Sign up here</string>
+    <string name="sign_in">Sign in</string>
+    <string name="sign_in_label">Already have an account? Sign in here</string>
 </resources>
