@@ -41,7 +41,6 @@ public class HomeActivity extends AppCompatActivity {
             error.printStackTrace();
         }
 
-
         //we add an OnClickListener to the log out-button
         btnLogout.setOnClickListener(new View.OnClickListener(){
             @Override
