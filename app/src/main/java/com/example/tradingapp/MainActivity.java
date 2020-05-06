@@ -35,10 +35,10 @@ public class MainActivity extends AppCompatActivity {
 
         mFirebaseAuth = FirebaseAuth.getInstance();
         //find by id from the xml
-        emailId = findViewById(R.id.emailId);
-        password = findViewById(R.id.password);
-        btnSignUp = findViewById(R.id.btnSignUp);
-        tvSignIn = findViewById(R.id.tvSignIn);
+        emailId = findViewById(R.id.mainEemailId);
+        password = findViewById(R.id.mainPassword);
+        btnSignUp = findViewById(R.id.mainBtnSignUp);
+        tvSignIn = findViewById(R.id.mainTvSignIn);
 
         //we add an OnClickListener to the signUp-button
         btnSignUp.setOnClickListener(new View.OnClickListener() {

@@ -32,10 +32,10 @@ public class LoginActivity extends AppCompatActivity {
 
         mFirebaseAuth = FirebaseAuth.getInstance();
         //find by id from the xml
-        emailId = findViewById(R.id.emailId);
-        password = findViewById(R.id.password);
-        btnSignIn = findViewById(R.id.btnSignIn);
-        tvSignUp = findViewById(R.id.tvSignUp);
+        emailId = findViewById(R.id.activityEmailId);
+        password = findViewById(R.id.activityPassword);
+        btnSignIn = findViewById(R.id.activityBtnSignIn);
+        tvSignUp = findViewById(R.id.activityTvSignUp);
 
         // we add an AuthStateListener
         // it keeps track of when we switch states (from not logged in to logged in)
